@@ -10,11 +10,12 @@ for (let i =0; i<numbersLength; i++) {
 }
 console.log(numbers);
 
-for (let i = 0; i<5; i++) {
+/* for (let i = 0; i<5; i++) {
     console.log(numbers[numbers.length - i])
-}
+} */
 
-/* let tail = parseInt(prompt("Enter a number"));
+let tail = parseInt(prompt("Enter a number"));
+if (tail<numbers.length){
 for (let i = 0; i<tail; i++) {
     console.log(numbers[numbers.length -i])
-} */
+} }
