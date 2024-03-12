@@ -11,5 +11,10 @@ for (let i =0; i<numbersLength; i++) {
 console.log(numbers);
 
 for (let i = 0; i<5; i++) {
-    console.log(numbers.length - i)
+    console.log(numbers[numbers.length - i])
 }
+
+/* let tail = parseInt(prompt("Enter a number"));
+for (let i = 0; i<5; i++) {
+    console.log(numbers.length - i)
+} */
